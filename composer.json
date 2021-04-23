@@ -1,0 +1,25 @@
+{
+    "name": "hostkontroller1/lab",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ivanenko",
+            "email": "github12345@mail.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rok9ru/trpo-core.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hostkontroller1/ivanenko.git"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "rok9ru/trpo-core":"^2.0",
+        "hostkontroller1/ivanenko":"^1.0"
+    }
+}
