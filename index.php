@@ -45,7 +45,7 @@ if(isset($_GET['sub']))
         if($e instanceof NoRootException) {
             MyLog::log("корней нет!<br>"); 
         }
-        if($e instanceof ZeroDivisionException) {
+       if($e instanceof ZeroDivisionException) {
             MyLog::log("не дели на ноль!<br>");
         }
     } catch (IvanenkoException $w
