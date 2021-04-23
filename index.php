@@ -49,7 +49,7 @@ if(isset($_GET['sub']))
             MyLog::log("не дели на ноль!<br>");
         }
     } catch (IvanenkoException $w
-		MyLog::log($w->getMessage());
+	MyLog::log($w->getMessage());
 }
 MyLog::log('<form action="#" method="get"><input type="text" name="a" /> x^2 + <input type="text" name="b" /> x + <input type="text" name="c" /> = 0<input type="submit" name="sub" value = "ввод"/></form></body></html>');
 MyLog::write();
