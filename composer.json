@@ -21,5 +21,5 @@
     "require": {
         "rok9ru/trpo-core":"^2.0",
         "hostkontroller1/ivanenko":"^1.0"
-    }
+   }
 }
